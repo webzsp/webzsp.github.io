@@ -25,7 +25,7 @@ console.log(NaN,NaN) //true
 可以看到Object.is 在=== 的基础上添加了对0和-0,和NaN 的判断逻辑,在代码中尽量使用Object.is,兼容性问题可以使用shim等工具
 ### 3:手动实现Object.is
 ```
-    if(!Object.is){
+if(!Object.is){
     Object.is=function(a,b){
         if(a===0&&b===0){
             return 1/a===1/b
