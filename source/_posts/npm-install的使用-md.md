@@ -33,3 +33,5 @@ A package is any of the following:
 # 1.1 使用本地包
 没啥用
 # 2 npm insatll 常用命令
+-d 显示安装信息,-D就是-dev,直接使用install 就行
+
